@@ -16,12 +16,13 @@
 		    int year = 0;
 			int  month = 0;
 			int date = 0;
-			
+		
 			Scanner sc2 = new Scanner(System.in);
 			
-	  System.out.println("Enter year ");
+			//enter birthday seperately as year, Month and the Date
+	                System.out.println("Enter year ");
 			year = sc2.nextInt();
-			 System.out.println("Enter month ");		 
+			System.out.println("Enter month ");		 
 			month = sc2.nextInt();
 			System.out.println("Enter date ");
 			date = sc2.nextInt();
