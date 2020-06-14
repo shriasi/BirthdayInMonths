@@ -30,12 +30,12 @@
 			  
 			  LocalDate now = LocalDate.now(); //gets localDate
 			  
-			  Period diff = Period.between(l, now); //difference between the dates is calculated
+			  Period  ageDif = Period.between(l, now); //difference between the dates is calculated
 			  
-			  System.out.println(diff.getYears() + " years " + diff.getMonths() + " months " + diff.getDays() + " days ");
+			  System.out.println( ageDif.getYears() + " years " +  ageDif.getMonths() + " months " +  ageDif.getDays() + " days ");
 			   
-			 int years = diff.getYears() * 12;
-			 int months =diff.getMonths();
+			 int years =  ageDif.getYears() * 12;
+			 int months =  ageDif.getMonths();
 			 
 			 int age_in_months = years + months;
 		         System.out.println("Age in months : "  + age_in_months );
