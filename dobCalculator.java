@@ -12,8 +12,8 @@
 		 
 		int x = 0;
 		do{
-			 
-		    int year = 0;
+			//initialization 
+		        int year = 0;
 			int  month = 0;
 			int date = 0;
 		
@@ -39,15 +39,12 @@
 			 int months =diff.getMonths();
 			 
 			 int age_in_months = years + months;
-		     System.out.println("Age in months : "  + age_in_months );
-		      
+		         System.out.println("Age in months : "  + age_in_months );
 		     
-		      Scanner sc = new Scanner(System.in);
-		      System.out.println("Enter -1 to exit ");
-		      sc.nextInt();     
+			 x++;
 			 
 		 }
-		    while(x >= 0 );
-     }
+		    while(x <=300 ); //number of birthdays you have to check(to do)
+             }
 	 
-} 
+	} 
