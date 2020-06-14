@@ -8,8 +8,7 @@
 	
 	public class DobConvert {
 	 public static void main(String[] args) throws ParseException {
-		 		 
-		 
+		 			 
 		int x = 0;
 		do{
 			//initialization 
